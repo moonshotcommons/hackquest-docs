@@ -1,0 +1,28 @@
+---
+description: HackQuest is a multi-chain Web3 developer and founder platform, with education, community events, hackathons, and accelerators at its core. HackQuest helps over 20 leading ecosystems such as Mantle, Solana, Arbitrum, and Linea onboard quality developers and supports developers to jumpstart their careers in Web3.
+---
+
+import { Cards, Image } from 'nextra/components'
+import { cloneElement } from 'react'
+
+export default function MdxLayout(props) {
+  return cloneElement(props.children, {
+    components: {
+      img: Image,
+    },
+  })
+}
+
+# Introduction
+
+**HackQuest** is a multi-chain Web3 developer and founder platform, with education, community events, hackathons, and accelerators at its core. **HackQuest** helps over 20 leading ecosystems such as Mantle, Solana, Arbitrum, and Linea onboard quality developers and supports developers to jumpstart their careers in Web3.
+
+## Official Website
+
+If you want to know about our main business, please visit our official website;
+
+<Cards num={1}>
+  <Cards.Card title="HackQuest" href="http://hackquest.io/">
+    <>![HackQuest Official Website](/official_website.png)</>
+  </Cards.Card>
+</Cards>
