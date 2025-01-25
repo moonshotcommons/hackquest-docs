@@ -34,7 +34,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           navbar={<Navbar />}
           // sidebar={{ autoCollapse: true }}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/moonshotcommons/hackquest-docs"
+          docsRepositoryBase="https://github.com/moonshotcommons/hackquest-docs/tree/main"
           footer={<Footer />}
           // ... Your additional layout options
         >
